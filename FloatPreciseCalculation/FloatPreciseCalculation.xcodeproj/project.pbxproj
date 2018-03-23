@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3641D3F22064F5A50022A813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D3F12064F5A50022A813 /* AppDelegate.m */; };
+		3641D3F52064F5A50022A813 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D3F42064F5A50022A813 /* ViewController.m */; };
+		3641D3F82064F5A50022A813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3641D3F62064F5A50022A813 /* Main.storyboard */; };
+		3641D3FA2064F5A50022A813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3641D3F92064F5A50022A813 /* Assets.xcassets */; };
+		3641D3FD2064F5A50022A813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3641D3FB2064F5A50022A813 /* LaunchScreen.storyboard */; };
+		3641D4002064F5A50022A813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D3FF2064F5A50022A813 /* main.m */; };
+		3641D40A2064F5A50022A813 /* FloatPreciseCalculationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D4092064F5A50022A813 /* FloatPreciseCalculationTests.m */; };
+		3641D4152064F5A50022A813 /* FloatPreciseCalculationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D4142064F5A50022A813 /* FloatPreciseCalculationUITests.m */; };
+		3641D4242064F6190022A813 /* NSString+FloatPreciseCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641D4232064F6190022A813 /* NSString+FloatPreciseCalculation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3641D4062064F5A50022A813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3641D3E52064F5A40022A813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3641D3EC2064F5A50022A813;
+			remoteInfo = FloatPreciseCalculation;
+		};
+		3641D4112064F5A50022A813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3641D3E52064F5A40022A813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3641D3EC2064F5A50022A813;
+			remoteInfo = FloatPreciseCalculation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3641D3ED2064F5A50022A813 /* FloatPreciseCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatPreciseCalculation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641D3F02064F5A50022A813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3641D3F12064F5A50022A813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3641D3F32064F5A50022A813 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3641D3F42064F5A50022A813 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3641D3F72064F5A50022A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3641D3F92064F5A50022A813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3641D3FC2064F5A50022A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3641D3FE2064F5A50022A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3641D3FF2064F5A50022A813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3641D4052064F5A50022A813 /* FloatPreciseCalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatPreciseCalculationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641D4092064F5A50022A813 /* FloatPreciseCalculationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatPreciseCalculationTests.m; sourceTree = "<group>"; };
+		3641D40B2064F5A50022A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3641D4102064F5A50022A813 /* FloatPreciseCalculationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatPreciseCalculationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3641D4142064F5A50022A813 /* FloatPreciseCalculationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatPreciseCalculationUITests.m; sourceTree = "<group>"; };
+		3641D4162064F5A50022A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3641D4222064F6190022A813 /* NSString+FloatPreciseCalculation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FloatPreciseCalculation.h"; sourceTree = "<group>"; };
+		3641D4232064F6190022A813 /* NSString+FloatPreciseCalculation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FloatPreciseCalculation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3641D3EA2064F5A50022A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D4022064F5A50022A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D40D2064F5A50022A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3641D3E42064F5A40022A813 = {
+			isa = PBXGroup;
+			children = (
+				3641D3EF2064F5A50022A813 /* FloatPreciseCalculation */,
+				3641D4082064F5A50022A813 /* FloatPreciseCalculationTests */,
+				3641D4132064F5A50022A813 /* FloatPreciseCalculationUITests */,
+				3641D3EE2064F5A50022A813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3641D3EE2064F5A50022A813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3641D3ED2064F5A50022A813 /* FloatPreciseCalculation.app */,
+				3641D4052064F5A50022A813 /* FloatPreciseCalculationTests.xctest */,
+				3641D4102064F5A50022A813 /* FloatPreciseCalculationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3641D3EF2064F5A50022A813 /* FloatPreciseCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				3641D3F02064F5A50022A813 /* AppDelegate.h */,
+				3641D3F12064F5A50022A813 /* AppDelegate.m */,
+				3641D3F32064F5A50022A813 /* ViewController.h */,
+				3641D3F42064F5A50022A813 /* ViewController.m */,
+				3641D3F62064F5A50022A813 /* Main.storyboard */,
+				3641D3F92064F5A50022A813 /* Assets.xcassets */,
+				3641D3FB2064F5A50022A813 /* LaunchScreen.storyboard */,
+				3641D3FE2064F5A50022A813 /* Info.plist */,
+				3641D3FF2064F5A50022A813 /* main.m */,
+				3641D4222064F6190022A813 /* NSString+FloatPreciseCalculation.h */,
+				3641D4232064F6190022A813 /* NSString+FloatPreciseCalculation.m */,
+			);
+			path = FloatPreciseCalculation;
+			sourceTree = "<group>";
+		};
+		3641D4082064F5A50022A813 /* FloatPreciseCalculationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3641D4092064F5A50022A813 /* FloatPreciseCalculationTests.m */,
+				3641D40B2064F5A50022A813 /* Info.plist */,
+			);
+			path = FloatPreciseCalculationTests;
+			sourceTree = "<group>";
+		};
+		3641D4132064F5A50022A813 /* FloatPreciseCalculationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3641D4142064F5A50022A813 /* FloatPreciseCalculationUITests.m */,
+				3641D4162064F5A50022A813 /* Info.plist */,
+			);
+			path = FloatPreciseCalculationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3641D3EC2064F5A50022A813 /* FloatPreciseCalculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641D4192064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculation" */;
+			buildPhases = (
+				3641D3E92064F5A50022A813 /* Sources */,
+				3641D3EA2064F5A50022A813 /* Frameworks */,
+				3641D3EB2064F5A50022A813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatPreciseCalculation;
+			productName = FloatPreciseCalculation;
+			productReference = 3641D3ED2064F5A50022A813 /* FloatPreciseCalculation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3641D4042064F5A50022A813 /* FloatPreciseCalculationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641D41C2064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculationTests" */;
+			buildPhases = (
+				3641D4012064F5A50022A813 /* Sources */,
+				3641D4022064F5A50022A813 /* Frameworks */,
+				3641D4032064F5A50022A813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3641D4072064F5A50022A813 /* PBXTargetDependency */,
+			);
+			name = FloatPreciseCalculationTests;
+			productName = FloatPreciseCalculationTests;
+			productReference = 3641D4052064F5A50022A813 /* FloatPreciseCalculationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3641D40F2064F5A50022A813 /* FloatPreciseCalculationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3641D41F2064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculationUITests" */;
+			buildPhases = (
+				3641D40C2064F5A50022A813 /* Sources */,
+				3641D40D2064F5A50022A813 /* Frameworks */,
+				3641D40E2064F5A50022A813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3641D4122064F5A50022A813 /* PBXTargetDependency */,
+			);
+			name = FloatPreciseCalculationUITests;
+			productName = FloatPreciseCalculationUITests;
+			productReference = 3641D4102064F5A50022A813 /* FloatPreciseCalculationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3641D3E52064F5A40022A813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WealthOnline_iOS_team;
+				TargetAttributes = {
+					3641D3EC2064F5A50022A813 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3641D4042064F5A50022A813 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3641D3EC2064F5A50022A813;
+					};
+					3641D40F2064F5A50022A813 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3641D3EC2064F5A50022A813;
+					};
+				};
+			};
+			buildConfigurationList = 3641D3E82064F5A40022A813 /* Build configuration list for PBXProject "FloatPreciseCalculation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3641D3E42064F5A40022A813;
+			productRefGroup = 3641D3EE2064F5A50022A813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3641D3EC2064F5A50022A813 /* FloatPreciseCalculation */,
+				3641D4042064F5A50022A813 /* FloatPreciseCalculationTests */,
+				3641D40F2064F5A50022A813 /* FloatPreciseCalculationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3641D3EB2064F5A50022A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641D3FD2064F5A50022A813 /* LaunchScreen.storyboard in Resources */,
+				3641D3FA2064F5A50022A813 /* Assets.xcassets in Resources */,
+				3641D3F82064F5A50022A813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D4032064F5A50022A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D40E2064F5A50022A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3641D3E92064F5A50022A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641D4242064F6190022A813 /* NSString+FloatPreciseCalculation.m in Sources */,
+				3641D3F52064F5A50022A813 /* ViewController.m in Sources */,
+				3641D4002064F5A50022A813 /* main.m in Sources */,
+				3641D3F22064F5A50022A813 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D4012064F5A50022A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641D40A2064F5A50022A813 /* FloatPreciseCalculationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3641D40C2064F5A50022A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3641D4152064F5A50022A813 /* FloatPreciseCalculationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3641D4072064F5A50022A813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3641D3EC2064F5A50022A813 /* FloatPreciseCalculation */;
+			targetProxy = 3641D4062064F5A50022A813 /* PBXContainerItemProxy */;
+		};
+		3641D4122064F5A50022A813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3641D3EC2064F5A50022A813 /* FloatPreciseCalculation */;
+			targetProxy = 3641D4112064F5A50022A813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3641D3F62064F5A50022A813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3641D3F72064F5A50022A813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3641D3FB2064F5A50022A813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3641D3FC2064F5A50022A813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3641D4172064F5A50022A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3641D4182064F5A50022A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3641D41A2064F5A50022A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3641D41B2064F5A50022A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3641D41D2064F5A50022A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatPreciseCalculation.app/FloatPreciseCalculation";
+			};
+			name = Debug;
+		};
+		3641D41E2064F5A50022A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatPreciseCalculation.app/FloatPreciseCalculation";
+			};
+			name = Release;
+		};
+		3641D4202064F5A50022A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatPreciseCalculation;
+			};
+			name = Debug;
+		};
+		3641D4212064F5A50022A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FloatPreciseCalculationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.FloatPreciseCalculationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatPreciseCalculation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3641D3E82064F5A40022A813 /* Build configuration list for PBXProject "FloatPreciseCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641D4172064F5A50022A813 /* Debug */,
+				3641D4182064F5A50022A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3641D4192064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641D41A2064F5A50022A813 /* Debug */,
+				3641D41B2064F5A50022A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3641D41C2064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641D41D2064F5A50022A813 /* Debug */,
+				3641D41E2064F5A50022A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3641D41F2064F5A50022A813 /* Build configuration list for PBXNativeTarget "FloatPreciseCalculationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3641D4202064F5A50022A813 /* Debug */,
+				3641D4212064F5A50022A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3641D3E52064F5A40022A813 /* Project object */;
+}
